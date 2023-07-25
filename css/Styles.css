@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Belanosima', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+header nav {
+    width: 100%;
+    background: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+
+header li a:hover {
+    border-bottom: 2px solid #248dff;
+}
+
+header a.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+header #hero {
+    width: 100%;
+    height: 96vh;
+    background: url('../img/home.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+
+header #hero h1 {
+    padding-top: 160px;
+    color: #fff;
+    font-size: 40px;
+}
+
+header #hero h3 {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+
+header #hero p {
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 100px;
+}
+
+header #hero a {
+    margin: 0 auto;
+    max-width: 120px;
+    padding: 18px;
+    background: #ffffff;
+    border-radius: 8px;
+
+    color: #000000;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+#about{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#about .fila{
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#about .fila img{
+    width: 250px;
+    transition: 1s;
+}
+
+#about .fila img:hover{
+    border-radius: 30px;
+    transform: scale(.9) rotate(-360deg);
+}
+
+.cont-info{
+    padding-left: 40px;
+}
+
+#about h2{
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#about p{
+    color: #000000;
+
+}
+
+#services{
+    width: 100%;
+    position: relative;
+    padding: 120px 0;
+    background: url('../img/services.jpg');
+    background-position: cover;
+    text-align: center;
+}
+
+#services h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#services .fila{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#services .fila .card{
+    margin-top: 40px;
+    width: 30%;
+    text-align: center;
+    background: #ffffff8c;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0 15px;
+    transition: .5s;
+}
+
+#services .fila .card:hover{
+    background: #000000;
+    border-radius: 0;
+    transform: translateY(-30px);
+}
+
+#services .fila .card:hover h3, 
+#services .fila .card:hover p{
+    color: #ffffff;
+}
+
+#services .card h3{
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#services .card p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+#services .card a{
+    padding: 15px 50px;
+    background: #248dff;
+    border-radius: 8px;
+
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#video{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#video h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#video .cont-video{
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+footer{
+
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
